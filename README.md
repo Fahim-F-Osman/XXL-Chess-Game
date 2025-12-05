@@ -77,7 +77,7 @@ such as the current player's turn, stalemate conditions, or game over
 status.
 
 <p align="center">
-  <img src="./resources/43ltynkd.png" width="300" />
+  <img src="./resources/43ltynkd.png" width="500" />
 </p>
 
 The board follows a traditional checkerboard pattern with alternating
@@ -100,19 +100,84 @@ directory. This file specifies the name of another file containing the
 initial layout of chess pieces. Each character in the layout file
 represents a specific chess piece:
 
-| Sprite | Char | Piece        | Movement Description |
-|--------|------|--------------|----------------------|
-| <img src="./resources/xxhekgnt.png" style="width:300" /><img src="./resources/42tzcv5a.png" style="width:300" />| P p | Pawn | Moves forward one square; captures diagonally forward.|
-| <img src="./resources/i2n452f3.png" style="width:300" /><img src="./resources/xnkznnqy.png" style="width:300" /> | R r | Rook | Moves horizontally or vertically any number of squares. |
-| <img src="./resources/45kntjxg.png" style="width:300" /><img src="./resources/r4pi5ojx.png" style="width:300" /> | N n | Knight | 2 squares in one direction, then 1 square perpendicular. |
-| <img src="./resources/quokj54i.png" style="width:300" /><img src="./resources/jcl5xk4l.png" style="width:300" /> | B b | Bishop | Moves diagonally any number of squares. |
-| <img src="./resources/wsvgspwg.png" style="width:300" /><img src="./resources/o4pifnqw.png" style="width:300" /> | H h | Archbishop | Moves like a Knight or a Bishop. |
-| <img src="./resources/3buxzlro.png" style="width:300" /><img src="./resources/yffbl443.png" style="width:300" /> | C c | Camel | 3 squares in one direction, then 1 square perpendicular. |
-| <img src="./resources/fctl52nq.png" style="width:300" /><img src="./resources/eihwtcgs.png" style="width:300" /> | G g | KnightKing | Moves like a Knight or a King. |
-| <img src="./resources/zxt0g00f.png" style="width:300" /><img src="./resources/2g0lalyb.png" style="width:300" /> | A a | Amazon | Moves like a Knight, Bishop, or Rook. |
-| <img src="./resources/jpqdjjsd.png" style="width:300" /><img src="./resources/prafqbda.png" style="width:300" /> | K k | King | Moves one square in any direction; must avoid check. |
-| <img src="./resources/3rlar2ua.png" style="width:300" /><img src="./resources/mh4p05h4.png" style="width:300" /> | E e | Chancellor | Moves like a Knight or a Rook. |
-| <img src="./resources/hmw4qx3x.png" style="width:300" /><img src="./resources/5coofxva.png" style="width:300" /> | Q q | Queen | Moves like a Bishop or a Rook. |
+<table align="center">
+  <thead>
+    <tr>
+      <th>Sprite</th>
+      <th>Char</th>
+      <th>Piece</th>
+      <th>Movement Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./resources/xxhekgnt.png" width="50" /><img src="./resources/42tzcv5a.png" width="50" /></td>
+      <td>P p</td>
+      <td>Pawn</td>
+      <td>Moves forward one square; captures diagonally forward.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/i2n452f3.png" width="50" /><img src="./resources/xnkznnqy.png" width="50" /></td>
+      <td>R r</td>
+      <td>Rook</td>
+      <td>Moves horizontally or vertically any number of squares.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/45kntjxg.png" width="50" /><img src="./resources/r4pi5ojx.png" width="50" /></td>
+      <td>N n</td>
+      <td>Knight</td>
+      <td>2 squares in one direction, then 1 square perpendicular.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/quokj54i.png" width="50" /><img src="./resources/jcl5xk4l.png" width="50" /></td>
+      <td>B b</td>
+      <td>Bishop</td>
+      <td>Moves diagonally any number of squares.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/wsvgspwg.png" width="50" /><img src="./resources/o4pifnqw.png" width="50" /></td>
+      <td>H h</td>
+      <td>Archbishop</td>
+      <td>Moves like a Knight or a Bishop.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/3buxzlro.png" width="50" /><img src="./resources/yffbl443.png" width="50" /></td>
+      <td>C c</td>
+      <td>Camel</td>
+      <td>3 squares in one direction, then 1 square perpendicular.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/fctl52nq.png" width="50" /><img src="./resources/eihwtcgs.png" width="50" /></td>
+      <td>G g</td>
+      <td>KnightKing</td>
+      <td>Moves like a Knight or a King.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/zxt0g00f.png" width="50" /><img src="./resources/2g0lalyb.png" width="50" /></td>
+      <td>A a</td>
+      <td>Amazon</td>
+      <td>Moves like a Knight, Bishop, or Rook.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/jpqdjjsd.png" width="50" /><img src="./resources/prafqbda.png" width="50" /></td>
+      <td>K k</td>
+      <td>King</td>
+      <td>Moves one square in any direction; must avoid check.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/3rlar2ua.png" width="50" /><img src="./resources/mh4p05h4.png" width="50" /></td>
+      <td>E e</td>
+      <td>Chancellor</td>
+      <td>Moves like a Knight or a Rook.</td>
+    </tr>
+    <tr>
+      <td><img src="./resources/hmw4qx3x.png" width="50" /><img src="./resources/5coofxva.png" width="50" /></td>
+      <td>Q q</td>
+      <td>Queen</td>
+      <td>Moves like a Bishop or a Rook.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -150,46 +215,46 @@ piece.
 <table align="center">
   <tr>
     <td align="center">
-      <img src="./resources/3gjyudbe.png" width="200" /><br><em>Amazon</em>
+      <img src="./resources/3gjyudbe.png" width="300" /><br><em>Amazon</em>
     </td>
     <td align="center">
-      <img src="./resources/2rpihtli.png" width="200" /><br><em>Archbishop</em>
+      <img src="./resources/2rpihtli.png" width="300" /><br><em>Archbishop</em>
     </td>
     <td align="center">
-      <img src="./resources/q4jlwsyg.png" width="200" /><br><em>Bishop</em>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="./resources/zbnp5tcz.png" width="200" /><br><em>Camel</em>
-    </td>
-    <td align="center">
-      <img src="./resources/klsr1gmj.png" width="200" /><br><em>Chancellor</em>
-    </td>
-    <td align="center">
-      <img src="./resources/hu345l22.png" width="200" /><br><em>King</em>
+      <img src="./resources/q4jlwsyg.png" width="300" /><br><em>Bishop</em>
     </td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="./resources/yjgnhyl1.png" width="200" /><br><em>Knight</em>
+      <img src="./resources/zbnp5tcz.png" width="300" /><br><em>Camel</em>
     </td>
     <td align="center">
-      <img src="./resources/mnrsznsc.png" width="200" /><br><em>Knight King</em>
+      <img src="./resources/klsr1gmj.png" width="300" /><br><em>Chancellor</em>
     </td>
     <td align="center">
-      <img src="./resources/z02djwz2.png" width="200" /><br><em>Pawn</em>
+      <img src="./resources/hu345l22.png" width="300" /><br><em>King</em>
     </td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="./resources/wyb44j3e.png" width="200" /><br><em>Queen</em>
+      <img src="./resources/yjgnhyl1.png" width="300" /><br><em>Knight</em>
     </td>
     <td align="center">
-      <img src="./resources/l3wzgn4p.png" width="200" /><br><em>Rook</em>
+      <img src="./resources/mnrsznsc.png" width="300" /><br><em>Knight King</em>
+    </td>
+    <td align="center">
+      <img src="./resources/z02djwz2.png" width="300" /><br><em>Pawn</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="./resources/wyb44j3e.png" width="300" /><br><em>Queen</em>
+    </td>
+    <td align="center">
+      <img src="./resources/l3wzgn4p.png" width="300" /><br><em>Rook</em>
     </td>
     <td align="center">
     </td>
@@ -210,7 +275,7 @@ If after a move, a king is under attack, the king is said to be in
 - Capture the attacking piece.
 
 <p align="center">
-  <img src="./resources/oyxxksmo.png" width="300" />
+  <img src="./resources/oyxxksmo.png" width="500" />
 </p>
 
 If none of these possibilities are available, then the player has been
@@ -237,7 +302,7 @@ If there are no legal moves for a player, then the game is considered a
 draw and enters the end state. Display the message “Stalemate - draw”.
 
 <p align="center">
-  <img src="./resources/3gulaekl.png" width="300" />
+  <img src="./resources/3gulaekl.png" width="500" />
 </p>
 
 ## **Credits**
@@ -247,3 +312,4 @@ draw and enters the end state. Display the message “Stalemate - draw”.
 
 ## **Author**
 This chess game project was created by Fahim Faisal Osman.
+
