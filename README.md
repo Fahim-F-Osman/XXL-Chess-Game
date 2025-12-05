@@ -102,17 +102,17 @@ represents a specific chess piece:
 
 | Sprite | Char | Piece        | Movement Description |
 |--------|------|--------------|----------------------|
-| <img src="./resources/xxhekgnt.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/42tzcv5a.png" style="width:0.3125in;height:0.3125in" />| P p | Pawn | Moves forward one square; captures diagonally forward.|
-| <img src="./resources/i2n452f3.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/xnkznnqy.png" style="width:0.3125in;height:0.3125in" /> | R r | Rook | Moves horizontally or vertically any number of squares. |
-| <img src="./resources/45kntjxg.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/r4pi5ojx.png" style="width:0.3125in;height:0.3125in" /> | N n | Knight | 2 squares in one direction, then 1 square perpendicular. |
-| <img src="./resources/quokj54i.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/jcl5xk4l.png" style="width:0.3125in;height:0.3125in" /> | B b | Bishop | Moves diagonally any number of squares. |
-| <img src="./resources/wsvgspwg.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/o4pifnqw.png" style="width:0.3125in;height:0.3125in" /> | H h | Archbishop | Moves like a Knight or a Bishop. |
-| <img src="./resources/3buxzlro.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/yffbl443.png" style="width:0.3125in;height:0.3125in" /> | C c | Camel | 3 squares in one direction, then 1 square perpendicular. |
-| <img src="./resources/fctl52nq.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/eihwtcgs.png" style="width:0.3125in;height:0.3125in" /> | G g | KnightKing | Moves like a Knight or a King. |
-| <img src="./resources/zxt0g00f.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/2g0lalyb.png" style="width:0.3125in;height:0.3125in" /> | A a | Amazon | Moves like a Knight, Bishop, or Rook. |
-| <img src="./resources/jpqdjjsd.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/prafqbda.png" style="width:0.3125in;height:0.3125in" /> | K k | King | Moves one square in any direction; must avoid check. |
-| <img src="./resources/3rlar2ua.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/mh4p05h4.png" style="width:0.3125in;height:0.3125in" /> | E e | Chancellor | Moves like a Knight or a Rook. |
-| <img src="./resources/hmw4qx3x.png" style="width:0.3125in;height:0.3125in" /><img src="./resources/5coofxva.png" style="width:0.3125in;height:0.3125in" /> | Q q | Queen | Moves like a Bishop or a Rook. |
+| <img src="./resources/xxhekgnt.png" style="width:300" /><img src="./resources/42tzcv5a.png" style="width:300" />| P p | Pawn | Moves forward one square; captures diagonally forward.|
+| <img src="./resources/i2n452f3.png" style="width:300" /><img src="./resources/xnkznnqy.png" style="width:300" /> | R r | Rook | Moves horizontally or vertically any number of squares. |
+| <img src="./resources/45kntjxg.png" style="width:300" /><img src="./resources/r4pi5ojx.png" style="width:300" /> | N n | Knight | 2 squares in one direction, then 1 square perpendicular. |
+| <img src="./resources/quokj54i.png" style="width:300" /><img src="./resources/jcl5xk4l.png" style="width:300" /> | B b | Bishop | Moves diagonally any number of squares. |
+| <img src="./resources/wsvgspwg.png" style="width:300" /><img src="./resources/o4pifnqw.png" style="width:300" /> | H h | Archbishop | Moves like a Knight or a Bishop. |
+| <img src="./resources/3buxzlro.png" style="width:300" /><img src="./resources/yffbl443.png" style="width:300" /> | C c | Camel | 3 squares in one direction, then 1 square perpendicular. |
+| <img src="./resources/fctl52nq.png" style="width:300" /><img src="./resources/eihwtcgs.png" style="width:300" /> | G g | KnightKing | Moves like a Knight or a King. |
+| <img src="./resources/zxt0g00f.png" style="width:300" /><img src="./resources/2g0lalyb.png" style="width:300" /> | A a | Amazon | Moves like a Knight, Bishop, or Rook. |
+| <img src="./resources/jpqdjjsd.png" style="width:300" /><img src="./resources/prafqbda.png" style="width:300" /> | K k | King | Moves one square in any direction; must avoid check. |
+| <img src="./resources/3rlar2ua.png" style="width:300" /><img src="./resources/mh4p05h4.png" style="width:300" /> | E e | Chancellor | Moves like a Knight or a Rook. |
+| <img src="./resources/hmw4qx3x.png" style="width:300" /><img src="./resources/5coofxva.png" style="width:300" /> | Q q | Queen | Moves like a Bishop or a Rook. |
 
 
 
